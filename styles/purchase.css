@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding: 15px 20px 15px 20px;
+  background-color: cyan;
+  justify-content: space-between;
+}
+
+#navbar > h3 {
+  font-weight: bold;
+}
+#navbar > a {
+  display: flex;
+  cursor: pointer;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+#purchased_vouchers {
+  display: grid;
+  width: 98%;
+  margin: 5px auto;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+#purchased_vouchers > .voucher > div {
+    width: 95%;
+    margin: auto;
+  }
+  #purchased_vouchers > .voucher > h3,
+  p,
+  button {
+    margin: 5px 12px;
+  }

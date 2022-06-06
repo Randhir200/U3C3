@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+#navbar {
+  display: flex;
+  padding: 15px 20px 15px 20px;
+  background-color: cyan;
+  justify-content: space-between;
+}
+#navbar > a {
+  display: flex;
+  margin-right: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 50px auto 20px;
+}
+input {
+  /* width: 80%; */
+  margin: 2px auto;
+  padding: 0 10px;
+  height: 20px;
+}
+button {
+  display: flex;
+  margin: auto;
+}

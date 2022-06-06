@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding: 15px 20px 15px 20px;
+  background-color: cyan;
+  justify-content: space-between;
+}
+
+#navbar > h3 {
+  font-weight: bold;
+}
+#navbar > a {
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#voucher_list {
+  display: grid;
+  width: 98%;
+  margin: 5px auto;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#voucher_list > .voucher > div {
+  width: 95%;
+  margin: auto;
+}
+#voucher_list > .voucher > h3,
+p,
+button {
+  margin: 5px 12px;
+}
+#voucher_list > .voucher > button {
+  width: 90%;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+}
+#voucher_list > .voucher > div > img {
+  width: 100%;
+}
